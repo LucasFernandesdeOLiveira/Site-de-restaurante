@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+
+     <!--STYLE CSS LINK--> 
+    <link rel="stylesheet" href="style.css">
+    <!-- STYLE CSS LINK -->
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP CDN LINK -->
+
+
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- FONT AWESOME CDN -->
+
+
+
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS LINK -->
+</head>
+<body>
+    
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm" id="navbar">
+  <a href="index.html" class="navbar-brand" id="logo">R<span>estaurante</span> </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <span><i class="fa-solid fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Ordem</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Contato</a>
+      </li>
+    </ul>
+
+    <form class="d-flex">
+      <input type="text" class="form-control me-2" placeholder="Pesquisar" required>
+      <button type="button" id="btn">Pesquisar</button>
+    </form>
+
+  </div>
+</nav>
+<!-- Navbar -->
+
+
+  
+    
+
+<!-- Home Section-->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Reivindique a melhor oferta <br> de Fast <span>Food</span> & <span>Restaurante</span></h3>
+    
+    <a href="#our-menu" id="home-btn">Seu Menu</a>
+  </div>
+  <div class="img">
+    <img src="image 46.png" alt="">
+  </div>
+</section>
+<!-- Home Section-->
+
+
+
+<!--Top Section -->
+<div class="top-section">
+  <h5>O QUE SERVIMOS</h5>
+  <h3>Sua comida favorita <br>pronta pra entrega</h3>
+  <div class="row">
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="img1.png" alt="">
+        <div class="card-body">
+        <h1>Facíl de usar</h1>
+        <p>Você só precisa de algumas etapas para pedir a comida</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="img2.png" alt="">
+        <div class="card-body">
+        <h1>Rápida entrega</h1>
+        <p>Entrega sempre pontual <br> ainda mais rápida</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="img3.png" alt="">
+        <div class="card-body">
+        <h1>Melhor qualidade</h1>
+        <p>Não só rápido a qualidade também é <br> de primeira </p>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--Top Section -->
+
+
+
+
+<!-- Menu -->
+<section class="menu" id="menu">
+  <h3>Menu</h3>
+  <h2>Pratos prontos para você <i class="fa-solid fa-arrow-down"></i></h2>
+
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Mangalorean_Chicken.png" alt="">
+        <div class="card-body">
+          <h3>Frango Frito</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$49,99 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Garlic_Fried.png" alt="">
+        <div class="card-body">
+          <h3>Frango Grelhado</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$44,99 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="g" alt="">
+        <div class="card-body">
+          <h3>Bife Grelhado</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$30,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Pineapple_Fried_Rice.png" alt="">
+        <div class="card-body">
+          <h3>Arroz e Camarrão</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$50,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Grilled_pork_ribs.png" alt="">
+        <div class="card-body">
+          <h3>Peixe Grelhado</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$35,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="crispy_fried.png" alt="">
+        <div class="card-body">
+          <h3>Nuggets Frango</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$32,99 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="sushi__japanese.png" alt="">
+        <div class="card-body">
+          <h3>Sushi Japones</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$40,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="Lyulya_kebab.png" alt="">
+        <div class="card-body">
+          <h3>Kebab de Lula</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$99,99 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+<!-- Menu -->
+
+
+
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+
+
+
+
+
+
+<!--  Menu  -->
+<section class="menu" id="menu">
+  <h3>Nosso Menu</h3>
+
+
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="burger (1).png" alt="">
+        <div class="card-body">
+          <h3>Hamburger</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$25,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="fasr food.png" alt="">
+        <div class="card-body">
+          <h3>Grelhados</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$100,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="rice.png" alt="">
+        <div class="card-body">
+          <h3>Prato Feito</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$30,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="pizza.png" alt="">
+        <div class="card-body">
+          <h3>Pizza</h3>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+
+          <p>R$49,00 <i class="fa-solid fa-credit-card"></i></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  </div>
+</section>
+<!-- Menu  -->
+
+
+
+
+
+<!-- Ordre Section -->
+<section class="order" id="order">
+  <div class="heading">Peça sua <span>Comida</span></div>
+
+  <div class="row">
+    <div class="col-md-5 py-3 py-md-0">
+      <div class="card">
+        <img src="img1.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-7 py-3 py-md-0">
+      <form action="#">
+
+        <div class="mb-3 mt-3">
+          <input type="text" class="form-control" id="name" placeholder="Coloque seu nome" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="email" class="form-control" id="email" placeholder="Coloque seu email" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="number" class="form-control" id="number" placeholder="Coloque seu número" required>
+        </div>
+
+
+         <textarea  class="form-control" id="comment" rows="5" name="text" placeholder="Coloque seu endereço" required></textarea>
+
+         <button type="submit" class="order-btn">Peça agora</button>
+        
+
+      </form>
+    </div>
+
+  </div>
+</section>
+<!-- Ordre Section-->
+
+
+
+
+
+<!-- Review Section-->
+<section class="review" id="review">
+  <div class="row">
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="review-img.png" alt="">
+      </div>
+    </div>
+
+    <div class="col-md-8 py-3 py-md-0" style="padding: 100px;">
+      <h3>O QUE ELES DISSERAM</h3>
+      <h2>O que nossos clientes <br> dizem sobre nós</h2>
+      <h5><img src="pic-1.png" alt="" width="60px"><a href="#">Danilo</a></h5>
+      <h5><img src="pic-2.png" alt="" widpith="60px"><a href="#">Estafany Beiramar</a></h5>
+      <div class="rating">
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+        <i class="fa-solid fa-star checked"></i>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Review Section -->
+
+
+
+
+
+<!--Contact Section-->
+<section class="contact" id="contact">
+  <div class="heading">
+    Entre em <span>contato</span>
+  </div>
+  <div class="row">
+    <div class="col-md-5 py-3 py-md-0">
+      <h3>Vamos entrar em contato</h3>
+      <p>essas são nosssas forma de contato</p>
+      <i class="fa-solid fa-phone"><span>(65)9922842727</span></i><br><br>
+      <i class="fa-solid fa-envelope"><span>Restaurante@gmail.com</span></i><br><br>
+      <i class="fa-solid fa-location-dot"><span>Cuiabá, MT
+      </span></i>
+    </div>
+
+    <div class="col-md-7 py-3 py-md-0">
+      <form action="#">
+        <div class="mb-3 mt-3">
+          <input type="text" class="form-control" id="name" placeholder="Coloque seu nome" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="email" class="form-control" id="email" placeholder="Coloque seu email" required>
+        </div>
+
+        <div class="mb-3 mt-3">
+          <input type="number" class="form-control" id="number" placeholder="Coloque seu número" required>
+        </div>
+
+
+         <textarea  class="form-control" id="comment" rows="5" name="text" placeholder="Coloque seu endereço" required></textarea>
+
+         <button type="submit" class="order-btn">Peça agora</button>
+      </form>
+    </div>
+  </div>
+
+</section>
+<!--Contact Section-->
+
+
+
+
+<!--Footer-->
+<footer id="footer">
+  <div class="f-content">
+    
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  <br>
+  <div class="c-content">
+    &copy; Copyright GP. Todos os direitos reservados<br>
+    <span>Feito por <a href="#">Gurizinho do programa</a></span>
+  </div>
+</footer>
+<!--Footer-->
+
+
+
+
+
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CDN LINK -->
+
+
+</body>
+</html>
